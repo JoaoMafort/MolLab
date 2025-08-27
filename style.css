@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6f42c1;
+    padding: 20px 30px;
+    border-radius: 5px
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.search-box {
+    flex: 1;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.logo {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction:column;
+}
+.logo img{
+    width: 70px;
+}
+.logo button{
+    background-color: #6f42c1;
+    border: none;
+    padding-right: 20px;
+}
+.mainindex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.tituloindex{
+    margin-top: 35px;
+    background-color: #6b43b6;
+    width: 600px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+.tituloindex p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mainmateria {
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 18px;
+}
+.btnindex{
+    display: flex;
+    flex-direction: column;
+}
+.btnindex button{
+    margin-top: 50px;
+    background-color: #825ec5;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+.btnindex a{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titulo {
+    background-color: #6f42c1;
+    color: #F8F8FF;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    
+}
+
+.texto {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+
+aside {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 150px;
+    background-color: #6f42c1;
+    height: 375px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    margin-top: 170px;
+}
+
+aside h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 120px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.barra-titulo{
+    background-color: #6f42c1;
+    text-align: center;
+    font-size: 30;
+    
+}
+
+.titulo_nome{
+    color: #F8F8FF;
+}
+
