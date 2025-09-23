@@ -1,40 +1,56 @@
 <html lang="pt-br">
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <header>
-            <div class="menu-icon"><img src="">&#9776;</div>
+            <div class="menu-icon">
+                <button onclick=menu()>
+                    <span>&#9776;</span>
+                </button>
+            </div>
             <div class="search-box">
                 <input type="text" placeholder="Busca">
             </div>
             <div class="logo">
-                <button><a href=""><img src="imagens/logo.png" alt="logo"></a></button>
+                <button>
+                    <a href="index.html"><img src="imagens/logo.png" alt="logo"></a>
+                </button>
                 <button><a href="index.html">INICIO</a></button>
             </div>
-            <div class="user-icon"><img src="imagens/icon.png" alt="icone" width="70px"></div>
+            <div class="user-icon">
+                <a href="conta.html"><img src="imagens/icon.png" alt="icone" width="70px"></a>
+            </div>
         </header>
+
+        <div id="panel">
+            <button><a href="config.html">Configurações</a></button>
+            <button><a href="conta.html">Conta</a></button>
+            <button><a href="jogos.html">Jogos</a></button>
+            <button><a href="quemsomos.html">Quem Somos</a></button>
+        </div>
 
         <main class="mainindex">
             <div class="tituloindex">
                 <p>MOLLAB</p>
             </div>
             <div class="btnindex">
-                <button><a href="#">O que é o MOL?</a></button>
+                <button><a href="molmateria.html">O que é o MOL?</a></button>
                 <button><a href="phmateria.html">O que é Ph?</a></button>
-                <button><a href="#">Ligações Químicas</a></button>
-                <button><a href="#">Tabela Periódica</a></button>
+                <button><a href="ligquimateria.html">Ligações Químicas</a></button>
+                <button><a href="tabelamateria.html">Tabela Periódica</a></button>
             </div>
         </main>
         
 
     <aside id="sidebar">
         <h3>Jogos</h3>
-        <img src="imagens/quimol.jfif" alt="Jogo 1">
+        <a href="https://cutline.itch.io/mollab"><img src="imagens/OIP.webp" alt="Jogo 1"></a>
         <h3>QuiMol</h3>
-        <img src="imagens/tabelaperiodicagame.jfif" alt="Jogo 2">
+        <a href="https://cutline.itch.io/mollab"><img src="imagens/tabelaperiodica.jpg" alt="Jogo 2"></a>
         <h3>Tabela Periódica</h3>
-        <a href="jogos.html">Mais Jogos</a>
+        <a href="https://cutline.itch.io/mollab">Mais Jogos</a>
     </aside>
 
     </body>
