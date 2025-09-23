@@ -39,3 +39,5 @@ Retornar à página principal usando os botões de navegação.
 
 
 <https://miro.com/welcomeonboard/aEpVcWRBeEZEWG5PVHBjZEdmY0U4QVNodXF0T25ZQ3VpWFU5bldaL0dmMHI4SnFpeUpYUVU5Z2YvVnlWQzd2QmQwVUV0c0dySDZ6RysvMm0vMGdyVmh6ZTlrMVdwL2pPaTFpSU5BR0E3Ti9tQkVPbzRsN2RVNm05T0cxTGdvS21hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=547336786766>
+
+Autores: Adrian Alves Martins, Anna Clara Rates de Carvalho Santiago, Eduarda Nicolly Pereira Ferreira, Guilherme Fernandes dos Santos, João Pedro Guedes Mafort, Júlia da Silva Cunha e Manuela Íris Dare
