@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
     <header>
         <div class="menu-icon">
-            <button onclick=menu()>
+            <button onclick="menu()">
                 <span>&#9776;</span>
             </button>
         </div>
@@ -22,7 +24,7 @@
             <button><a href="index.html">INICIO</a></button>
         </div>
         <div class="user-icon">
-                <a href="conta.html"><img src="imagens/icon.png" alt="icone" width="70px"></a>
+            <a href="conta.html"><img src="imagens/icon.png" alt="icone" width="70px"></a>
         </div>
     </header>
 
@@ -32,5 +34,33 @@
         <button><a href="jogos.html">Jogos</a></button>
         <button><a href="quemsomos.html">Quem Somos</a></button>
     </div>
+
+    <div class="containerconta-config">
+        <main class="config-container">
+            <h1>Configurações</h1>
+            <section class="config-section">
+                <h2>Tema</h2>
+                <label>
+                    <input type="checkbox" id="darkModeToggle">
+                    Modo escuro
+                </label>
+            </section>
+            <section class="config-section">
+                <h2>Notificações</h2>
+                <label><input type="checkbox"> Receber atualizações por e-mail</label><br>
+                <label><input type="checkbox"> Notificações de novos jogos</label>
+            </section>
+            <section class="config-section">
+                <h2>Idioma</h2>
+                <select>
+                    <option>Português (Brasil)</option>
+                    <option>Inglês</option>
+                    <option>Espanhol</option>
+                </select>
+            </section>
+            <button class="save-btn">Salvar alterações</button>
+        </main>
+    </div>
 </body>
+
 </html>

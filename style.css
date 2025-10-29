@@ -4,23 +4,30 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-html, body {
+
+html,
+body {
     height: 100%;
     margin: 0;
 }
+
 body {
     background-color: white;
     width: 100%;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 /*painel onde o usuario pode entrar nas configuracoes conta jogos
 e quem somos nos*/
-#panel{
+
+#panel {
     display: none;
     width: 300px;
     position: fixed;
@@ -30,17 +37,19 @@ e quem somos nos*/
     border-bottom: 1px solid black;
     border-bottom-right-radius: 15px;
 }
-#panel  button{
+
+#panel button {
     background-color: #6f42c1;
     border: none;
     border-bottom: 1px solid black;
     padding: bold;
-    padding-top: 50px; 
+    padding-top: 50px;
     text-transform: uppercase;
     cursor: pointer;
     width: 100%;
     text-align: none;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -48,8 +57,11 @@ header {
     background-color: #6f42c1;
     padding: 20px 30px;
 }
+
+
 /*botao do menu*/
-.menu-icon button{
+
+.menu-icon button {
     background-color: #6f42c1;
     border: none;
     width: 60px;
@@ -57,10 +69,12 @@ header {
     padding-bottom: 70px;
     padding-left: 30px;
 }
-.menu-icon button span{
+
+.menu-icon button span {
     font-size: 50px;
     cursor: pointer;
 }
+
 .search-box {
     flex: 1;
     margin: 0 20px;
@@ -81,25 +95,29 @@ header {
     text-align: center;
     font-weight: bold;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding-right: 30px;
 }
-.logo img{
+
+.logo img {
     width: 70px;
 }
-.logo button{
+
+.logo button {
     background-color: #6f42c1;
     border: none;
     padding-right: 20px;
 }
-.mainindex{
+
+.mainindex {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
 }
-.tituloindex{
+
+.tituloindex {
     margin-top: 35px;
     background-color: #6f42c1;
     font-weight: bold;
@@ -107,7 +125,8 @@ header {
     border-radius: 15px;
     font-size: 30px;
 }
-.tituloindex p{
+
+.tituloindex p {
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -118,22 +137,23 @@ header {
     text-align: center;
     font-size: 18px;
 }
-.btnindex{
+
+.btnindex {
     display: flex;
     flex-direction: column;
 }
-.btnindex button{
+
+.btnindex button {
     margin-top: 50px;
     background-color: #6f42c1;
-
     font-weight: bold;
     border: none;
     font-size: 20px;
     border-radius: 15px;
     height: 40px;
-    
 }
-.btnindex a{
+
+.btnindex a {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 10px;
@@ -146,9 +166,11 @@ header {
     padding: 10px;
     font-weight: bold;
     border-radius: 15px;
-    width: fit-content;
     margin: 0 auto 20px auto;
-    
+    width: 150px;
+    height: fit-content;
+    text-align: center;
+    font-size: 20px;
 }
 
 .texto {
@@ -156,7 +178,6 @@ header {
     margin-bottom: 20px;
     padding: 0 10px;
 }
-
 
 aside {
     position: absolute;
@@ -182,54 +203,74 @@ aside img {
     border-radius: 10px;
 }
 
-.barra-titulo{
+.barra-titulo {
     background-color: #6f42c1;
     text-align: center;
     font-size: 30;
-    
 }
 
-.titulo_nome{
+.titulo_nome {
     color: #F8F8FF;
 }
-/* 
-#jogos-grid{
-    min-height: calc(100vh - 80px); 
-    display: grid;
-    place-items: center;   
-    grid-template-columns: repeat(2, 1fr);
-    padding: 60px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
-}
-#jogos-grid button{
-    width: 160px;
-    height: 200px;
+
+.containerconfig-conta {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 15px;
-    font-size: 16px;
-    border: 0;
-    border-radius: 12px;
-    cursor: pointer;
-    background: linear-gradient(180deg,#4f46e5,#4338ca);
-    color: white;
-    box-shadow: 0 4px 10px rgba(67,56,202,0.2);
-    transition: transform .12s ease, box-shadow .12s ease;
+    min-height: 100vh;
 }
 
-#jogos-grid button img{
-    width: 100%;
-    height: 120px;
-    object-fit: cover;  
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+.config-container,
+.conta-container {
+    margin: 0 auto;
+    color: #fff;
+    background: #6f42c1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #6f42c1;
+    max-width: 700px;
+    height: auto;
 }
-#jogos-grid button h1{
-    margin: 10px 0 0;
-    font-size: 18px;
-    text-align: center;
-} */
+
+.config-container h1,
+h2 {
+    color: #d9a7ff;
+}
+
+.config-container select,
+input[type="checkbox"] {
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.config-container button:hover,
+select:hover {
+    background-color: #7a1ed3;
+}
+
+.conta-container h1,
+h2 {
+    color: #d9a7ff;
+}
+
+.conta-container select,
+input[type="checkbox"] {
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conta-container button:hover,
+select:hover {
+    background-color: #7a1ed3;
+}
