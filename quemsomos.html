@@ -3,14 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nossa Equipe - MOLLAB</title>
+    <title>Quem Somos - MOLLAB</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <style>
+        .container-equipe {
+            max-width: 1000px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .titulo {
+            background-color: #6f42c1;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 15px;
+            width: 200px;
+            margin: 0 auto 30px auto;
+            padding: 10px;
+        }
+
+        .grid-equipe {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            justify-items: center;
+        }
+
+        .membro {
+            background-color: #f3f3f3;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            padding: 20px;
+            width: 250px;
+        }
+
+        .membro img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .membro h2 {
+            margin-top: 15px;
+            font-size: 20px;
+            color: #6f42c1;
+        }
+    </style>
 </head>
 <body>
     <header>
         <div class="menu-icon">
-            <button onclick=menu()>
+            <button onclick="menu()">
                 <span>&#9776;</span>
             </button>
         </div>
@@ -22,7 +68,7 @@
             <button><a href="index.html">INICIO</a></button>
         </div>
         <div class="user-icon">
-                <a href="conta.html"><img src="imagens/icon.png" alt="icone" width="70px"></a>
+            <a href="conta.html"><img src="imagens/icon.png" alt="icone" width="70px"></a>
         </div>
     </header>
 
@@ -32,21 +78,42 @@
         <button><a href="jogos.html">Jogos</a></button>
         <button><a href="quemsomos.html">Quem Somos</a></button>
     </div>
-    <br>
-    <div class="titulo"> Quem Somos </div>
-    <h1></h1>
-<table>
-    <td>
-    <img src="imagens/781408dc-c77b-4915-8931-c5ace9a0f23a.jpg" width="300">
-    <h2>Adrian Alves</h2></td>
 
-    <br><br>
-    <td>
-    <img src="imagens/0b485d30-4cfb-417f-9a95-f04ae866089f.jpg" width="300">
-    <h2>Júlia da Silva</h2></td>
+    <main class="container-equipe">
+        <div class="titulo">Quem Somos</div>
 
-    <td><img src="imagens/cfd82062-293a-4b21-b42f-56ad38f53933.jpg" width="300">
-    <h2>João Pedro Mafort</h2></td>
-    
+        <div class="grid-equipe">
+            <div class="membro">
+                <img src="imagens/foto1.jpg" alt="Membro 1">
+                <h2>Adrian</h2>
+            </div>
+            <div class="membro">
+                <img src="imagens/WhatsApp Image 2025-10-31 at 08.16.10.jpeg" alt="Membro 2">
+                <h2>Anna Clara</h2>
+            </div>
+            <div class="membro">
+                <img src="imagens/eduarda.jpeg" alt="Membro 3">
+                <h2>Eduarda</h2>
+            </div>
+            <div class="membro">
+                <img src="imagens/gui.jpeg" alt="Membro 4">
+                <h2>Guilherme</h2>
+            </div>
+            <div class="membro">
+                <img src="imagens/joao.jpeg" alt="Membro 5">
+                <h2>João</h2>
+            </div>
+            <div class="membro">
+                <img src="imagens/julia.jpeg" alt="Membro 6">
+                <h2>Julia</h2>
+            </div>
+            <div class="membro">
+                <img src="imagens/manu.jpeg" alt="Membro 7"> 
+                <h2>Manuela</h2>
+            </div>
+        </div>
+    </main>
+
+
 </body>
 </html>
