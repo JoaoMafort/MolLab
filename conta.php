@@ -67,6 +67,7 @@
             </main>
         </div>
     <?php } ?>
+    
     <script src="script.js"></script>
 </body>
 
