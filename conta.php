@@ -6,7 +6,7 @@
 
 
 
-<html>
+
 <html lang="pt-br">
 
 <head>
@@ -31,13 +31,13 @@
             <button><a href="index.html">INICIO</a></button>
         </div>
         <div class="user-icon">
-            <a href="conta.php"><img src="imagens/icon.png" alt="icone" width="70px"></a>
+            <a href="contaSite.html"><img src="imagens/icon.png" alt="icone" width="70px"></a>
         </div>
     </header>
 
     <div id="panel">
         <button><a href="config.html">Configurações</a></button>
-        <button><a href="conta.php">Conta</a></button>
+        <button><a href="contaSite.html">Conta</a></button>
         <button><a href="jogos.html">Jogos</a></button>
         <button><a href="quemsomos.html">Quem Somos</a></button>
     </div>
