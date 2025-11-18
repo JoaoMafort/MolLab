@@ -1,0 +1,73 @@
+<?php
+    $aleatorio = mt_rand(0,2);
+
+?>
+
+
+
+
+<html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Conta - MOLLAB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu-icon">
+            <button onclick="menu()">
+                <span>&#9776;</span>
+            </button>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Busca">
+        </div>
+        <div class="logo">
+            <button><a href="index.html"><img src="imagens/logo.png" alt="logo"></a></button>
+            <button><a href="index.html">INICIO</a></button>
+        </div>
+        <div class="user-icon">
+            <a href="conta.php"><img src="imagens/icon.png" alt="icone" width="70px"></a>
+        </div>
+    </header>
+
+    <div id="panel">
+        <button><a href="config.html">Configurações</a></button>
+        <button><a href="conta.php">Conta</a></button>
+        <button><a href="jogos.html">Jogos</a></button>
+        <button><a href="quemsomos.html">Quem Somos</a></button>
+    </div>
+    <?php if($aleatorio == 0){ ?>
+        <div class="containerconta-config">
+            <main class="conta-container">
+                <h1>Minha Conta</h1>
+                <section class="perfil">
+                    <img src="imagens/icon.png" alt="foto de perfil" width="120px">
+                    <p><strong>Usuário:</strong> João</p>
+                    <p><strong>Email:</strong> joao@example.com</p>
+                    <button class="editar-btn">Editar perfil</button>
+                </section>
+                <section class="seguranca">
+                    <h2>Segurança</h2>
+                    <button>Alterar senha</button>
+                    <button>Excluir conta</button>
+                </section>
+                <section class="atividade">
+                    <h2>Atividade recente</h2>
+                    <ul>
+                        <li>Jogou "Lab Runner" ontem</li>
+                        <li>Atualizou o perfil 3 dias atrás</li>
+                        <li>Criou conta há 2 semanas</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    <?php } ?>
+    <script src="script.js"></script>
+</body>
+
+</html>
