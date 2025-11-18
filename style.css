@@ -16,6 +16,11 @@ body {
     width: 100%;
 }
 
+body.dark-mode {
+    background-color: #3d294d;
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: black;

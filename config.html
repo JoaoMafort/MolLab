@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configurações - MOLLAB</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 
 <body>
@@ -41,8 +41,7 @@
             <section class="config-section">
                 <h2>Tema</h2>
                 <label>
-                    <input type="checkbox" id="darkModeToggle">
-                    Modo escuro
+                    <button onclick="toggleDarkMode()">🌙 Alternar modo escuro</button>
                 </label>
             </section>
             <section class="config-section">
@@ -61,6 +60,7 @@
             <button class="save-btn">Salvar alterações</button>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
