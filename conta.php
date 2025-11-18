@@ -66,8 +66,32 @@
                 </section>
             </main>
         </div>
+    <?php } elseif ($aleatorio == 1) { ?>
+        <div class="containerconta-config">
+            <main class="conta-container">
+                <h1>Minha Conta</h1>
+                <section class="perfil">
+                    <img src="imagens/icon.png" alt="foto de perfil" width="120px">
+                    <p><strong>Usuário:</strong> João</p>
+                    <p><strong>Email:</strong> joao@example.com</p>
+                    <button class="editar-btn">Editar perfil</button>
+                </section>
+                <section class="seguranca">
+                    <h2>Segurança</h2>
+                    <button>Alterar senha</button>
+                    <button>Excluir conta</button>
+                </section>
+                <section class="atividade">
+                    <h2>Atividade recente</h2>
+                    <ul>
+                        <li>Jogou "Lab Runner" ontem</li>
+                        <li>Atualizou o perfil 3 dias atrás</li>
+                        <li>Criou conta há 2 semanas</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
     <?php } ?>
-    
     <script src="script.js"></script>
 </body>
 
