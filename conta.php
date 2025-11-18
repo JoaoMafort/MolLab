@@ -1,5 +1,5 @@
 <?php
-    $aleatorio = mt_rand(0,2);
+    $aleatorio = mt_rand(0,3);
 
 ?>
 
@@ -71,7 +71,7 @@
             <main class="conta-container">
                 <h1>Minha Conta</h1>
                 <section class="perfil">
-                    <img src="imagens/icon.png" alt="foto de perfil" width="120px">
+                    <img src="imagens/pixelArtBticoin.jpg" alt="foto de perfil" width="120px">
                     <p><strong>Usuário:</strong> João</p>
                     <p><strong>Email:</strong> joao@example.com</p>
                     <button class="editar-btn">Editar perfil</button>
@@ -91,7 +91,57 @@
                 </section>
             </main>
         </div>
-    <?php } ?>
+    <?php } elseif($aleatorio == 2){ ?>
+        <div class="containerconta-config">
+            <main class="conta-container">
+                <h1>Minha Conta</h1>
+                <section class="perfil">
+                    <img src="imagens/PolvoDumbo.webp" alt="foto de perfil" width="120px">
+                    <p><strong>Usuário:</strong> João</p>
+                    <p><strong>Email:</strong> joao@example.com</p>
+                    <button class="editar-btn">Editar perfil</button>
+                </section>
+                <section class="seguranca">
+                    <h2>Segurança</h2>
+                    <button>Alterar senha</button>
+                    <button>Excluir conta</button>
+                </section>
+                <section class="atividade">
+                    <h2>Atividade recente</h2>
+                    <ul>
+                        <li>Jogou "Lab Runner" ontem</li>
+                        <li>Atualizou o perfil 3 dias atrás</li>
+                        <li>Criou conta há 2 semanas</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    <?php }else{ ?>
+        <div class="containerconta-config">
+            <main class="conta-container">
+                <h1>Minha Conta</h1>
+                <section class="perfil">
+                    <img src="imagens/Olho.jpg" alt="foto de perfil" width="120px">
+                    <p><strong>Usuário:</strong> João</p>
+                    <p><strong>Email:</strong> joao@example.com</p>
+                    <button class="editar-btn">Editar perfil</button>
+                </section>
+                <section class="seguranca">
+                    <h2>Segurança</h2>
+                    <button>Alterar senha</button>
+                    <button>Excluir conta</button>
+                </section>
+                <section class="atividade">
+                    <h2>Atividade recente</h2>
+                    <ul>
+                        <li>Jogou "Lab Runner" ontem</li>
+                        <li>Atualizou o perfil 3 dias atrás</li>
+                        <li>Criou conta há 2 semanas</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    <?php }?>
     <script src="script.js"></script>
 </body>
 
