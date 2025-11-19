@@ -1,3 +1,4 @@
+/*Corpo da pagina partes como tela inicial e as telas de materia*/
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body {
     background-color: white;
     width: 100%;
 }
-
+/*acrescentacao do modo escuro nas paginas*/
 body.dark-mode {
     background-color: #3d294d;
     color: white;
@@ -42,7 +43,7 @@ e quem somos nos*/
     border-bottom: 1px solid black;
     border-bottom-right-radius: 15px;
 }
-
+/*mudanca no botao do painel*/
 #panel button {
     background-color: #6f42c1;
     border: none;
@@ -59,7 +60,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6f42c1;
+    background-color: #A689E1;
     padding: 20px 30px;
 }
 
@@ -282,3 +283,4 @@ select:hover {
     background-color: #7a1ed3;
 
 }
+
