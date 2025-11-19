@@ -36,7 +36,7 @@ e quem somos nos*/
     display: none;
     width: 300px;
     position: fixed;
-    background-color: #6f42c1;
+    background-color: #A689E1;
     flex-direction: column;
     height: 360px;
     border-bottom: 1px solid black;
@@ -280,4 +280,5 @@ input[type="checkbox"] {
 .conta-container button:hover,
 select:hover {
     background-color: #7a1ed3;
+
 }
