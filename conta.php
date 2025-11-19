@@ -61,7 +61,7 @@
                     <ul>
                         <li>Jogou "Lab Runner" ontem</li>
                         <li>Atualizou o perfil 3 dias atrás</li>
-                        <li>Criou conta há 2 semanas</li>
+                        <li>Criou conta há 1 semanas</li>
                     </ul>
                 </section>
             </main>
@@ -72,8 +72,8 @@
                 <h1>Minha Conta</h1>
                 <section class="perfil">
                     <img src="imagens/pixelArtBticoin.jpg" alt="foto de perfil" width="120px">
-                    <p><strong>Usuário:</strong> João</p>
-                    <p><strong>Email:</strong> joao@example.com</p>
+                    <p><strong>Usuário:</strong> Cleiton</p>
+                    <p><strong>Email:</strong> cleitinho@example.com</p>
                     <button class="editar-btn">Editar perfil</button>
                 </section>
                 <section class="seguranca">
@@ -84,9 +84,9 @@
                 <section class="atividade">
                     <h2>Atividade recente</h2>
                     <ul>
-                        <li>Jogou "Lab Runner" ontem</li>
-                        <li>Atualizou o perfil 3 dias atrás</li>
-                        <li>Criou conta há 2 semanas</li>
+                        <li>Jogou "pHunters" ontem</li>
+                        <li>Atualizou o perfil 3 meses atrás</li>
+                        <li>Criou conta há 3 meses</li>
                     </ul>
                 </section>
             </main>
@@ -96,9 +96,9 @@
             <main class="conta-container">
                 <h1>Minha Conta</h1>
                 <section class="perfil">
-                    <img src="imagens/PolvoDumbo.webp" alt="foto de perfil" width="120px">
-                    <p><strong>Usuário:</strong> João</p>
-                    <p><strong>Email:</strong> joao@example.com</p>
+                    <img src="imagens/781408dc-c77b-4915-8931-c5ace9a0f23a.jpg" alt="foto de perfil" width="120px">
+                    <p><strong>Usuário:</strong> Adrian</p>
+                    <p><strong>Email:</strong> gay@example.com</p>
                     <button class="editar-btn">Editar perfil</button>
                 </section>
                 <section class="seguranca">
@@ -109,9 +109,9 @@
                 <section class="atividade">
                     <h2>Atividade recente</h2>
                     <ul>
-                        <li>Jogou "Lab Runner" ontem</li>
-                        <li>Atualizou o perfil 3 dias atrás</li>
-                        <li>Criou conta há 2 semanas</li>
+                        <li>Não jogou nada ainda</li>
+                        <li>Atualizou o perfil hoje</li>
+                        <li>Criou conta hoje</li>
                     </ul>
                 </section>
             </main>
@@ -122,8 +122,8 @@
                 <h1>Minha Conta</h1>
                 <section class="perfil">
                     <img src="imagens/Olho.jpg" alt="foto de perfil" width="120px">
-                    <p><strong>Usuário:</strong> João</p>
-                    <p><strong>Email:</strong> joao@example.com</p>
+                    <p><strong>Usuário:</strong> ze ninguem</p>
+                    <p><strong>Email:</strong> ninguem@example.com</p>
                     <button class="editar-btn">Editar perfil</button>
                 </section>
                 <section class="seguranca">
@@ -134,9 +134,9 @@
                 <section class="atividade">
                     <h2>Atividade recente</h2>
                     <ul>
-                        <li>Jogou "Lab Runner" ontem</li>
-                        <li>Atualizou o perfil 3 dias atrás</li>
-                        <li>Criou conta há 2 semanas</li>
+                        <li>Jogou dark souls ano passado</li>
+                        <li>Atualizou o perfil antes de ontem</li>
+                        <li>Criou conta há 20 anos</li>
                     </ul>
                 </section>
             </main>
