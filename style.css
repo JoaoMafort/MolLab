@@ -18,7 +18,7 @@ body {
 }
 /*acrescentacao do modo escuro nas paginas*/
 body.dark-mode {
-    background-color: #3d294d;
+    background-color: #454545;
     color: white;
 }
 
@@ -37,7 +37,7 @@ e quem somos nos*/
     display: none;
     width: 300px;
     position: fixed;
-    background-color: #A689E1;
+    background-color: #6f42c1;
     flex-direction: column;
     height: 360px;
     border-bottom: 1px solid black;
@@ -60,7 +60,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #A689E1;
+    background-color: #6f42c1;
     padding: 20px 30px;
 }
 
@@ -283,4 +283,5 @@ select:hover {
     background-color: #7a1ed3;
 
 }
+
 
