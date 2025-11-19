@@ -9,7 +9,9 @@ O site visa ensinar de forma divertida atendendo a estudantes do ensino médio, 
 
 <https://miro.com/welcomeonboard/aEpVcWRBeEZEWG5PVHBjZEdmY0U4QVNodXF0T25ZQ3VpWFU5bldaL0dmMHI4SnFpeUpYUVU5Z2YvVnlWQzd2QmQwVUV0c0dySDZ6RysvMm0vMGdyVmh6ZTlrMVdwL2pPaTFpSU5BR0E3Ti9tQkVPbzRsN2RVNm05T0cxTGdvS21hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=547336786766>
 
-[ADRIAN](../github.com/Scariabyss) 
-[ANNA](../github.com/Anna2817)
+[Adrian](https://github.com/Scariabyss) 
+<br>
+[Anna](https://github.com/Anna2817)
+<br>
 []
 
