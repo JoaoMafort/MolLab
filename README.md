@@ -13,5 +13,11 @@ O site visa ensinar de forma divertida atendendo a estudantes do ensino médio, 
 <br>
 [Anna](https://github.com/Anna2817)
 <br>
-[]
+[Guilherme](https://github.com/Guilhermxf)
+<br>
+[Júlia](https://github.com/jujubaograndao)
+<br>
+[Eduarda](https://github.com/NICK123455678)
+<br>
+[Manuela](https://github.com/manuiris)
 
