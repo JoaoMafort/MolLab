@@ -18,7 +18,7 @@ body {
 }
 /*acrescentacao do modo escuro nas paginas*/
 body.dark-mode {
-    background-color: #12101a;
+    background-color: #1a1332b;
     color: white;
 }
 
@@ -283,6 +283,7 @@ select:hover {
     background-color: #7a1ed3;
 
 }
+
 
 
 
