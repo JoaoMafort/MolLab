@@ -69,9 +69,6 @@
                 <span>&#9776;</span>
             </button>
         </div>
-        <div class="search-box">
-            <input type="text" placeholder="Busca">
-        </div>
         <div class="logo">
             <button><a href="index.html"><img src="imagens/logo.png" alt="logo"></a></button>
             <button><a href="index.html">INICIO</a></button>
@@ -218,5 +215,6 @@
     </aside>
     <script src="script.js"></script>
 </body>
+
 
 </html>
