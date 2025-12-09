@@ -50,12 +50,6 @@
                 <img src=<?=$aleatorio ?> alt="foto de perfil" width="120px">
                 <p><strong>Usuário:</strong> João</p>
                 <p><strong>Email:</strong> joao@example.com</p>
-                <button class="editar-btn">Editar perfil</button>
-            </section>
-            <section class="seguranca">
-                <h2>Segurança</h2>
-                <button>Alterar senha</button>
-                <button>Excluir conta</button>
             </section>
             <section class="atividade">
                 <h2>Atividade recente</h2>
@@ -70,5 +64,6 @@
     
     <script src="script.js"></script>
 </body>
+
 
 </html>
